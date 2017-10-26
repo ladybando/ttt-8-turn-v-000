@@ -9,9 +9,9 @@ def display_board(board)
 
 
 # code your #valid_move? method here
+false
 def valid_move?(board, index)
   if position_taken?(board, index) == true
-     false
    elsif position_taken?(board, index)  == false && index.between?(0,8)
      true
    end
@@ -23,4 +23,9 @@ def position_taken?(board, index)
     false
   else
 end
+end
+
+#code turn method here
+def turn(board)
+  puts "Please enter 1-9:"
 end
